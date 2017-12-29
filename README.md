@@ -12,7 +12,7 @@ example:
    prop_release(&handle);
    
    
-   function list.
+   ...................function list................................
  
   // 初始化环境，成功返回0，失败返回非0值
     int prop_init(const char *filepath,void **handle);
