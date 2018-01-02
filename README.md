@@ -1,15 +1,16 @@
 # PropertyFile
 Read and write property files worked both on windows and linux.
 
-example:
+usage example:
 
-   void * handle = NULL;
+      void * handle = NULL;
+
+      prop_init(filename, &handle);
+
+      prop_getValue(handle,"key", value);
+
+      prop_release(&handle);
    
-   prop_init(filename, &handle);
-   
-   prop_getValue(handle,"key", value);
-   
-   prop_release(&handle);
    
    
    ...................function list................................
